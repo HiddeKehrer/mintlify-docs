@@ -1,0 +1,20 @@
+MCP (Model Context Protocol) is an open standard for connecting AI assistants to real-world data sources, business tools, and development environments. Think of it as a universal adapter for AI; instead of hand-coded integrations, MCP enables tools to describe themselves in a standard format, ready to be used by any agent that speaks the protocol.
+
+<AccordionGroup>
+  <Accordion title="Why is MCP a big deal?">
+    *   No More Integration Hell: MCP replaces a mess of custom connectors with a single, standardized protocol. Build (or use) an MCP server for your data source, and any MCP-compatible AI client can connect to it.
+    *   Context-Rich AI: Securely expose the right data to your AI assistant, so it can give more relevant, context-aware responses. This is a game-changer for automating workflows that span multiple tools.
+    *   Open Ecosystem: Anthropic is open-sourcing the protocol, SDKs, and a repository of pre-built MCP servers for popular systems (Google Drive, Slack, GitHub, etc.).
+  </Accordion>
+  <Accordion title="How does MCP work?">
+    *   MCP Server: Exposes your data (e.g., GitHub, Notion, Postgres) via the MCP protocol.
+    *   MCP Client: An AI tool (like Claude) connects to the MCP server to read/write data.
+    *   Standardized API: The protocol defines how data is described, queried, and updated, so any client/server pair can talk without custom glue code.
+  </Accordion>
+  <Accordion title="Why should you care?">
+    *   Less glue code: integrate once, connect everywhere.
+    *   Faster prototyping: Add new tools to your AI workflows in seconds, not weeks.
+    *   Open and extensible: Build your own MCP servers for custom systems, or use the growing open-source library.
+    *   Future-proof: As the ecosystem grows, your AI automations get more powerful without extra work.
+  </Accordion>
+</AccordionGroup> 
