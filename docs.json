@@ -32,7 +32,8 @@
   },
   "logo": {
     "light": "/images/hero-light.png",
-    "dark": "/images/hero-dark.png"
+    "dark": "/images/hero-dark.png",
+    "href": "https://mcpyjama.ai"
   },
   "navbar": {},
   "modeToggle": {
@@ -40,7 +41,7 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
+      "x": "https://x.com/mcpyjama",
       "discord": "https://discord.gg/8ZRDTfMw66"
     }
   }
